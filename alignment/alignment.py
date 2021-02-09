@@ -17,4 +17,4 @@ def concat_nexus_alignment(path: str, output_name: str):
 
     concat = Nexus.combine(nex_list)
     concat.write_nexus_data(filename=open(outname, "w"))
-    print("DONE!")  
+    print(f"DONE! File is written as {outname}")  
